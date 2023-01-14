@@ -1,1 +1,11 @@
-// tests go here; this will not be compiled when this package is used as an extension.
+OLEDST7789.init(TFTColors.Black)
+basic.forever(function () {
+    OLEDST7789.drawPixel(120, 80, TFTColors.Wewak)
+    OLEDST7789.drawLine(10, 10, 230, 170, TFTColors.White)
+    OLEDST7789.drawLine(10, 30, 230, 170, TFTColors.White)
+    OLEDST7789.drawLine(10, 50, 230, 170, TFTColors.White)
+    OLEDST7789.drawRectangle(10, 140, 220, 10, TFTColors.Mint)
+    OLEDST7789.showString("TFT 2.0 ", 50, 180, 4, TFTColors.White, TFTColors.Black)
+    OLEDST7789.drawCircle(120, 260, 40, TFTColors.Amber)
+    OLEDST7789.clearScreen(TFTColors.Black)
+})
