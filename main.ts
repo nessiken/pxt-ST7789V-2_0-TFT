@@ -171,7 +171,7 @@ namespace OLEDST7789 {
     export function init(color: TFTColors): void {
 
         // set SPI frequency
-        pins.spiFrequency(10000000)
+        pins.spiFrequency(40000000)
         //    1 Software reset
         send(TFTCommands.SWRESET, [])
         basic.pause(150)
