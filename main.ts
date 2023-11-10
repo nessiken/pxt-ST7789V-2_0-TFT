@@ -410,8 +410,3 @@ namespace OLEDST7789 {
 } // END Namespace OLEDST7789
   //---------------------------------------------------------------------------------------------
 
-
-
-
-OLEDST7789.init(TFTColors.Black)
-OLEDST7789.showString("Loading", 0, 0, 0, TFTColors.Black, TFTColors.Black)
