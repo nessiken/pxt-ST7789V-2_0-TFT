@@ -4,7 +4,8 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "pxt-ST7789V 2.0 TFT": "github:nessiken/pxt-ST7789V-2_0-TFT#a27f7e3b54721ae7785247d0f19dfcb60cde4df3"
     },
     "files": [
         "main.blocks",
@@ -15,7 +16,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "5.0.12",
+        "target": "6.0.19",
         "targetId": "microbit"
     },
     "supportedTargets": [
